@@ -26,7 +26,7 @@ impl EmptyBuffer {
                 label: "empty-buffer".into(),
                 // This needs to be at least as big as the items we're storing in our
                 // GPUArrayBuffer.
-                size: 64,
+                size: 4096,
                 usage: BufferUsages::COPY_DST | BufferUsages::STORAGE | BufferUsages::UNIFORM,
                 mapped_at_creation: false,
             }));
